@@ -1,4 +1,4 @@
-package lesson_1.tasks;
+package lesson_1.task_3;
 
 import java.io.BufferedReader;
 import java.io.IOException;

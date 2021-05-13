@@ -1,4 +1,4 @@
-package lesson_1.tasks;
+package lesson_1.task_2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,14 +6,13 @@ import java.io.InputStreamReader;
 
 public class task_2 {
 
-        boolean zn(int width, int height) {
-        int perimeter = (width + height)*2;
+    boolean zn(int width, int height) {
+        int perimeter = (width + height) * 2;
         int square = width * height;
         return perimeter < square;
     }
 
-    public static void main(String[] args) throws IOException
-    {
+    public static void main(String[] args) throws IOException {
         task_2 classs = new task_2();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Длина: ");
@@ -23,5 +22,5 @@ public class task_2 {
         int height = Integer.parseInt(reader.readLine());
 
         System.out.println(classs.zn(height, width));
-        }
     }
+}

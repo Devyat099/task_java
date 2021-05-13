@@ -1,9 +1,8 @@
-package lesson_1.tasks;
+package lesson_1.task_1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class task_1 {
 

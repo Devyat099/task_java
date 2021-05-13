@@ -1,4 +1,4 @@
-package lesson_1.tasks;
+package lesson_1.task_6;
 
 public class task_6 {
     boolean one(boolean a, boolean b, boolean c, boolean d){

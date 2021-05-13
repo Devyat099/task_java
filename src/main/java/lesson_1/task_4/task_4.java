@@ -1,4 +1,4 @@
-package lesson_1.tasks;
+package lesson_1.task_4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,4 +17,6 @@ public class task_4 {
         System.out.println(("Из них метров: " + metr.ismeter(dlina_sm)));
 
     }
+
+
 }
