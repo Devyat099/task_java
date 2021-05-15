@@ -1,7 +1,5 @@
 package lesson_2.task_2;
 
-import java.lang.reflect.Array;
-
 public class DoubleArray {
     public static void main(String[] args) {
         DoubleArray newArray = new DoubleArray();
