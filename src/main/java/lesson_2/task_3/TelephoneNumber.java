@@ -8,8 +8,8 @@ public class TelephoneNumber {
         System.out.println(phone.matches("89215310934"));
         System.out.println(phone.matches("+5(911)310-12-74"));
     }
-    boolean matches(String number) {
-        return number.matches("^\\+7\\(\\d{3}\\)\\d{3}-\\d{2}-\\d{2}$");
+    boolean matches(String telephoneNumber) {
+        return telephoneNumber.matches("^\\+7\\(\\d{3}\\)\\d{3}-\\d{2}-\\d{2}$");
     }
 
 }
