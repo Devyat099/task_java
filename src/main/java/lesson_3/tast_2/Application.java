@@ -1,4 +1,4 @@
-package Lesson_3.tast_2;
+package lesson_3.tast_2;
 
 public class Application {
     public static void main(String[] args) {

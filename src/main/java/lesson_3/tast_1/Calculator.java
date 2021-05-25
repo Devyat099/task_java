@@ -1,4 +1,4 @@
-package Lesson_3.tast_1;
+package lesson_3.tast_1;
 
 public class Calculator {
     int summ(int a, int b) {
