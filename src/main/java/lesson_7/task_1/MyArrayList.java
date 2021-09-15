@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MyArrayList<T> extends ArrayList<T> {
 
-//    @Override
+ @Override
     public int size() {
         System.out.println("Размер списка: " + super.size());
         return super.size();

@@ -1,12 +1,25 @@
 package lesson_7.task_3.chess;
 
-public class Position {
-    private int coordX;
-    private int coordY;
 
-    public Position(int coordX, int coordY) {
-        this.coordX = coordX;
-        this.coordY = coordY;
+public class Position {
+    private char horizontal;
+    private int vertical;
+
+    public Position(String position) {
+        this.horizontal = position.split("")[0].toCharArray()[0];
+        this.vertical = Integer.parseInt(position.split("")[1]);
     }
 
+    public int getHorizontal() {
+        return horizontal;
+    }
+
+    public int getVertical() {
+        return vertical;
+    }
+
+    public String getPosition() {
+        String letterHorizontal = String.valueOf(horizontal);
+        return letterHorizontal + vertical;
+    }
 }
