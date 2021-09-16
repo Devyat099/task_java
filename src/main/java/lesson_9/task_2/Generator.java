@@ -20,7 +20,7 @@ public class Generator {
                 iteration++;
                 return new Box();
         }
-        throw new IllegalArgumentException();
+        return null;
     }
 }
 
